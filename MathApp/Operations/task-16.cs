@@ -19,7 +19,7 @@ namespace MathApp.Operations
                 throw new Exception("Попытка вычислить корень из отрицательного цисла");
             if ((param1 - param2) % 180 == 0)
                 throw new DivideByZeroException();
-            return (Math.Sqrt(Math.Tan((param1 + param2) * (Math.PI / 180)) / Math.Tan((param1 - param2) * (Math.PI / 180))));
+            return (Math.Sqrt(Math.Tan((param1 + param2) * (Math.PI / 180))) / Math.Tan((param1 - param2) * (Math.PI / 180)));
         }
     }
 }
