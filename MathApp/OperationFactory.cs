@@ -16,6 +16,7 @@ namespace MathApp
             Operations.Add(new OperationsEnum() { Id = 0, Operation = new Operations.Add() });
             Operations.Add(new OperationsEnum() { Id = 1, Operation = new Operations.Sqrt() });
             Operations.Add(new OperationsEnum() { Id = 2, Operation = new Operations.Pow() });
+            Operations.Add(new OperationsEnum() { Id = 7, Operation = new Operations.SumWithIncrement0p1() });
         }
         public static List<OperationsEnum> GetOperations()
         {
