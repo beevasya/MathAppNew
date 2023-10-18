@@ -15,7 +15,8 @@ namespace MathApp
             Operations = new List<OperationsEnum>();
             Operations.Add(new OperationsEnum() { Id = 0, Operation = new Operations.Add() });
             Operations.Add(new OperationsEnum() { Id = 1, Operation = new Operations.Sqrt() });
-            Operations.Add(new OperationsEnum() { Id = 2, Operation = new Operations.task_07() });
+            Operations.Add(new OperationsEnum() { Id = 2, Operation = new Operations.Pow() });
+            Operations.Add(new OperationsEnum() { Id = 3, Operation = new Operations.task_07() });
         }
         public static List<OperationsEnum> GetOperations()
         {
