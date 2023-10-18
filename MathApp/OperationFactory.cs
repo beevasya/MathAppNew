@@ -17,6 +17,7 @@ namespace MathApp
             Operations.Add(new OperationsEnum() { Id = 1, Operation = new Operations.Sqrt() });
             Operations.Add(new OperationsEnum() { Id = 2, Operation = new Operations.SqDiff() });
             Operations.Add(new OperationsEnum() { Id = 3, Operation = new Operations.Pow() });
+            Operations.Add(new OperationsEnum() { Id = 12, Operation = new Operations.TwoMinusXPerThreePlusY() });
         }
         public static List<OperationsEnum> GetOperations()
         {
