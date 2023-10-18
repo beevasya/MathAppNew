@@ -23,6 +23,7 @@ namespace MathApp
             Operations.Add(new OperationsEnum() { Id = 10, Operation = new Operations.InverseSq() });
             Operations.Add(new OperationsEnum() { Id = 12, Operation = new Operations.TwoMinusXPerThreePlusY() });
             Operations.Add(new OperationsEnum() { Id = 14, Operation = new Operations.Calculation13()});
+            Operations.Add(new OperationsEnum() { Id = 15, Operation = new Operations.TanCheck() });
             Operations.Add(new OperationsEnum() { Id = 17, Operation = new Operations.task_16() });
         }
         public static List<OperationsEnum> GetOperations()
