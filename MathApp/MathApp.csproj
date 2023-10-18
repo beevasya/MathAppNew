@@ -59,6 +59,7 @@
     <Compile Include="Operations\Sqrt.cs" />
     <Compile Include="Operations\Add.cs" />
     <Compile Include="Operations\IOperation.cs" />
+    <Compile Include="Operations\InverseSq.cs" />
     <Compile Include="Operations\task-16.cs" />
     <Compile Include="Operations\task-07.cs" />
     <Compile Include="Operations\SumWithIncrement0p1.cs" />
