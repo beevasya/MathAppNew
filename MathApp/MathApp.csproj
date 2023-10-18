@@ -54,11 +54,13 @@
     </Compile>
     <Compile Include="OperationFactory.cs" />
     <Compile Include="OperationsEnum.cs" />
+    <Compile Include="Operations\SqDiff.cs" />
     <Compile Include="Operations\Pow.cs" />
     <Compile Include="Operations\Sqrt.cs" />
     <Compile Include="Operations\Add.cs" />
     <Compile Include="Operations\IOperation.cs" />
     <Compile Include="Operations\SumWithIncrement0p1.cs" />
+    <Compile Include="Operations\TwoMinusXPerThreePlusY.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
