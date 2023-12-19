@@ -55,6 +55,7 @@
     <Compile Include="OperationFactory.cs" />
     <Compile Include="OperationsEnum.cs" />
     <Compile Include="Operations\Calculation13.cs" />
+    <Compile Include="Operations\Calculation4.cs" />
     <Compile Include="Operations\SqDiff.cs" />
     <Compile Include="Operations\Pow.cs" />
     <Compile Include="Operations\sinxaddsiny.cs" />
