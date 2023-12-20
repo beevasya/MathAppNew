@@ -20,6 +20,7 @@ namespace MathApp
             Operations.Add(new OperationsEnum() { Id = 4, Operation = new Operations.sinxaddsiny() });
             Operations.Add(new OperationsEnum() { Id = 5, Operation = new Operations.Calculation4() });
             Operations.Add(new OperationsEnum() { Id = 6, Operation = new Operations.SumWithIncrement0p1() });
+            Operations.Add(new OperationsEnum() { Id = 7, Operation = new Operations.CalculateProductInRange() });
             Operations.Add(new OperationsEnum() { Id = 8, Operation = new Operations.task_07() });
             Operations.Add(new OperationsEnum() { Id = 10, Operation = new Operations.InverseSq() });
             Operations.Add(new OperationsEnum() { Id = 12, Operation = new Operations.TwoMinusXPerThreePlusY() });
